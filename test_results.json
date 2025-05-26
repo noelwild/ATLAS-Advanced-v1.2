@@ -1,0 +1,47 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "errors": [],
+  "detailed_results": {
+    "Configuration": {
+      "passed": true,
+      "details": "All sections loaded, hidden_dim=4096",
+      "error": ""
+    },
+    "Consciousness Monitor": {
+      "passed": true,
+      "details": "Phi range: 0.272-0.277, measurements: 5",
+      "error": ""
+    },
+    "Tag Parser": {
+      "passed": true,
+      "details": "Parsed 7 tags total",
+      "error": ""
+    },
+    "Code Executor": {
+      "passed": true,
+      "details": "Basic execution, math operations, and error handling working",
+      "error": ""
+    },
+    "Memory Manager": {
+      "passed": true,
+      "details": "Memory structure and configuration validated (full testing requires Qwen model)",
+      "error": ""
+    },
+    "Stream Manager": {
+      "passed": true,
+      "details": "Stream manager structure validated (full testing requires Qwen model)",
+      "error": ""
+    },
+    "ATLAS System Initialization": {
+      "passed": true,
+      "details": "ATLAS system structure and dependencies validated (full initialization requires Qwen model)",
+      "error": ""
+    },
+    "Integration Workflow": {
+      "passed": true,
+      "details": "Component integration: parse \u2192 execute \u2192 monitor (memory storage requires full model)",
+      "error": ""
+    }
+  }
+}
