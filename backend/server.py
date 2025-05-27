@@ -132,7 +132,7 @@ async def initialize_atlas():
         print("🚀 Initializing Enhanced ATLAS system...")
         
         # Check if enhanced system is available
-        if AtlasQwenSystem == EnhancedAtlasSystem:
+        if 'EnhancedAtlasSystem' in globals() and EnhancedAtlasSystem is not None:
             print("📡 Loading Enhanced ATLAS with model switching capabilities...")
             
             # Enhanced system configuration
@@ -151,7 +151,10 @@ async def initialize_atlas():
             
             # Initialize enhanced ATLAS system
             atlas_system = EnhancedAtlasSystem(config)
-            await atlas_system.initialize([ModelType.QWEN_SMALL])  # Start with small model
+            if ModelType:
+                await atlas_system.initialize([ModelType.QWEN_SMALL])  # Start with small model
+            else:
+                await atlas_system.initialize()
             
             # The consciousness monitor and human features are part of the enhanced system
             consciousness_monitor = atlas_system.consciousness_monitor
@@ -164,45 +167,95 @@ async def initialize_atlas():
             
             print("✅ Enhanced ATLAS system initialized with advanced features!")
             
-        else:
+        elif AtlasQwenSystem is not None:
             print("📡 Loading Original ATLAS system...")
             
-            # Load configuration with smaller model
-            config = get_default_config()
+            # Simplified configuration for original system
+            config = {
+                "model_name": "Qwen/Qwen2.5-0.5B",
+                "max_length": 512,
+                "device": "auto",
+                "torch_dtype": "float16",
+                "temperature": 0.7,
+                "do_sample": True,
+                "consciousness": {
+                    "hidden_dim": 256,
+                    "i2c_units": 4
+                },
+                "human_enhancements": {
+                    "enable_all": True
+                }
+            }
             
-            # Initialize original ATLAS system
-            print("📡 Loading Qwen 0.5B model...")
-            atlas_system = AtlasQwenSystem(config)
-            await atlas_system.initialize()
-            system_status["model_loaded"] = True
-            print("✅ Qwen model loaded successfully")
+            # Initialize original ATLAS system with mock if needed
+            print("📡 Setting up simplified ATLAS...")
+            try:
+                atlas_system = AtlasQwenSystem(config)
+                if hasattr(atlas_system, 'initialize'):
+                    await atlas_system.initialize()
+                system_status["model_loaded"] = True
+                print("✅ ATLAS model loaded successfully")
+            except Exception as e:
+                print(f"⚠️ Model loading failed ({e}), using mock system")
+                atlas_system = None
+                system_status["model_loaded"] = False
             
             # Initialize consciousness monitor
             print("🧠 Initializing consciousness monitor...")
-            consciousness_monitor = ConsciousnessMonitor(
-                hidden_dim=config.consciousness["hidden_dim"],
-                i2c_units=config.consciousness["i2c_units"]
-            )
-            system_status["consciousness_active"] = True
-            print("✅ Consciousness monitor initialized")
+            if ConsciousnessMonitor:
+                consciousness_monitor = ConsciousnessMonitor(
+                    hidden_dim=config["consciousness"]["hidden_dim"],
+                    i2c_units=config["consciousness"]["i2c_units"]
+                )
+                system_status["consciousness_active"] = True
+                print("✅ Consciousness monitor initialized")
+            else:
+                consciousness_monitor = None
+                system_status["consciousness_active"] = False
+                print("⚠️ Consciousness monitor not available")
             
             # Initialize human enhancements
             print("👤 Loading human enhancement modules...")
-            human_enhancements = HumanEnhancementModule()
-            print("✅ Human enhancements loaded")
+            if HumanEnhancementModule:
+                human_enhancements = HumanEnhancementModule()
+                print("✅ Human enhancements loaded")
+            else:
+                human_enhancements = None
+                print("⚠️ Human enhancements not available")
             
             # Initialize code executor
             print("💻 Setting up code execution environment...")
-            code_executor = CodeExecutor()
-            print("✅ Code executor ready")
+            if CodeExecutor:
+                code_executor = CodeExecutor()
+                print("✅ Code executor ready")
+            else:
+                code_executor = None
+                print("⚠️ Code executor not available")
             
             system_status["initialization_complete"] = True
             print("🎉 Original ATLAS system initialization complete!")
+            
+        else:
+            print("⚠️ No ATLAS system available, running in mock mode")
+            atlas_system = None
+            consciousness_monitor = None
+            human_enhancements = None
+            code_executor = None
+            system_status["model_loaded"] = False
+            system_status["consciousness_active"] = False
+            system_status["initialization_complete"] = True
         
     except Exception as e:
         print(f"❌ Error initializing ATLAS: {str(e)}")
-        # Don't raise for now, let server start for debugging
-        pass
+        # Set up mock system
+        print("🔧 Setting up mock ATLAS system for development...")
+        atlas_system = None
+        consciousness_monitor = None
+        human_enhancements = None
+        code_executor = None
+        system_status["model_loaded"] = False
+        system_status["consciousness_active"] = False
+        system_status["initialization_complete"] = True
 
 
 async def initialize_database():
