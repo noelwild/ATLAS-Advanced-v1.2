@@ -310,8 +310,8 @@ class ATLASBackendTester:
 
 def main():
     """Main test execution"""
-    # Get backend URL from environment
-    backend_url = "https://f0df1d70-89c3-44b0-b649-86864e5fc3bb.preview.emergentagent.com"
+    # Get backend URL from environment - using internal URL for testing
+    backend_url = "http://localhost:8001"
     
     print(f"ATLAS Backend Comprehensive Test Suite")
     print(f"Backend URL: {backend_url}")
