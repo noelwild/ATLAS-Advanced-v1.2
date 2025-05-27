@@ -28,15 +28,32 @@ try:
     ConsciousnessMonitor = EnhancedConsciousnessMonitor
     HumanEnhancementModule = EnhancedHumanFeaturesSystem
     CodeExecutor = SecureCodeExecutor
+    ENHANCED_ATLAS_AVAILABLE = True
 except ImportError as e:
     print(f"Enhanced ATLAS import error: {e}")
     print("Falling back to original ATLAS features")
+    ENHANCED_ATLAS_AVAILABLE = False
     try:
         from atlas_qwen_system import AtlasQwenSystem
-        from consciousness_monitor import ConsciousnessMonitor  
-        from config import get_default_config
-        from human_enhancements import HumanEnhancementModule
-        from code_executor import CodeExecutor
+        # Try to import consciousness monitor
+        try:
+            from consciousness_monitor import ConsciousnessMonitor  
+        except ImportError:
+            # Use the simple one from atlas_qwen_system
+            from atlas_qwen_system import SimpleConsciousnessMonitor as ConsciousnessMonitor
+        
+        # Try to import human enhancements
+        try:
+            from human_enhancements import HumanEnhancementModule
+        except ImportError:
+            from atlas_qwen_system import SimpleHumanEnhancements as HumanEnhancementModule
+        
+        # Try to import code executor
+        try:
+            from code_executor import CodeExecutor
+        except ImportError:
+            from atlas_qwen_system import SimpleCodeExecutor as CodeExecutor
+            
         ModelType = None
     except ImportError as e2:
         print(f"Original ATLAS import error: {e2}")
