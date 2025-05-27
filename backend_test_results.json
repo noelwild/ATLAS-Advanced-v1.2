@@ -4,54 +4,77 @@
     "details": "Health check passed - Status: healthy",
     "response_data": {
       "status": "healthy",
-      "timestamp": "2025-05-27T00:47:53.655674",
+      "timestamp": "2025-05-27T01:29:32.262246",
       "enhanced_features": {
-        "consciousness_monitoring": false,
+        "consciousness_monitoring": true,
         "human_features": true,
         "secure_execution": true,
         "model_switching": false
       }
     },
-    "timestamp": "2025-05-27T00:47:53.656731"
+    "timestamp": "2025-05-27T01:29:32.263153"
   },
   "system_status": {
     "success": true,
-    "details": "System status retrieved - Status: running, Model loaded: False",
+    "details": "System status retrieved - Status: running, Model loaded: True",
     "response_data": {
       "status": "running",
-      "model_loaded": false,
-      "consciousness_active": false,
+      "model_loaded": true,
+      "consciousness_active": true,
       "memory_count": 0,
-      "uptime": "0:00:00.023184",
-      "cpu_usage": 68.7,
-      "memory_usage": 30.3,
+      "uptime": "0:03:40.820104",
+      "cpu_usage": 67.9,
+      "memory_usage": 32.3,
       "gpu_usage": null
     },
-    "timestamp": "2025-05-27T00:47:53.804147"
+    "timestamp": "2025-05-27T01:29:32.269527"
   },
   "chat_functionality": {
     "success": true,
-    "details": "Chat endpoint accessible but ATLAS system not ready (expected in mock mode)",
+    "details": "Chat successful - Response length: 132 chars",
     "response_data": {
-      "detail": "ATLAS system not ready"
+      "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+      "session_id": "765dad90-8051-45e8-9a43-68cf97f92fab",
+      "consciousness_level": 0.0,
+      "memory_stored": null,
+      "timestamp": "2025-05-27T01:29:32.776188"
     },
-    "timestamp": "2025-05-27T00:47:53.811964"
+    "timestamp": "2025-05-27T01:29:32.777270"
   },
   "consciousness_state": {
     "success": true,
-    "details": "Consciousness endpoint accessible but monitor not ready (expected in mock mode)",
+    "details": "Consciousness state retrieved - Level: 0.0",
     "response_data": {
-      "detail": "Consciousness monitor not ready"
+      "consciousness_level": 0.0,
+      "i2c_activations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attention_patterns": {
+        "self_attention": 0.0,
+        "environmental_attention": 0.0,
+        "memory_attention": 0.0
+      },
+      "timestamp": "2025-05-27T01:29:32.780386"
     },
-    "timestamp": "2025-05-27T00:47:53.815852"
+    "timestamp": "2025-05-27T01:29:32.781162"
   },
   "code_execution": {
     "success": true,
-    "details": "Code execution endpoint accessible but executor not ready (expected in mock mode)",
+    "details": "Code execution successful - Output: Hello from ATLAS code execution!\n2 + 2 = 4\n...",
     "response_data": {
-      "detail": "Code executor not ready"
+      "output": "Hello from ATLAS code execution!\n2 + 2 = 4\n",
+      "error": null,
+      "execution_time": 0.06013202667236328,
+      "session_id": "765dad90-8051-45e8-9a43-68cf97f92fab"
     },
-    "timestamp": "2025-05-27T00:47:53.819333"
+    "timestamp": "2025-05-27T01:29:32.849067"
   },
   "memory_search": {
     "success": true,
@@ -60,34 +83,163 @@
       "memories": [],
       "count": 0
     },
-    "timestamp": "2025-05-27T00:47:53.835662"
+    "timestamp": "2025-05-27T01:29:32.865744"
   },
   "sessions_list": {
     "success": true,
-    "details": "Sessions list retrieved - Total: 0",
+    "details": "Sessions list retrieved - Total: 13",
     "response_data": {
-      "active_sessions": [],
-      "total": 0
+      "active_sessions": [
+        {
+          "session_id": "session_1",
+          "created": "2025-05-27T01:27:48.978855",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_2",
+          "created": "2025-05-27T01:27:51.711678",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_3",
+          "created": "2025-05-27T01:27:54.348777",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_4",
+          "created": "2025-05-27T01:27:57.132737",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_5",
+          "created": "2025-05-27T01:27:59.769554",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_6",
+          "created": "2025-05-27T01:28:02.406724",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_7",
+          "created": "2025-05-27T01:28:05.158881",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_8",
+          "created": "2025-05-27T01:28:07.794563",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_9",
+          "created": "2025-05-27T01:28:10.428437",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_10",
+          "created": "2025-05-27T01:28:13.198569",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_11",
+          "created": "2025-05-27T01:28:15.832558",
+          "message_count": 1
+        },
+        {
+          "session_id": "session_12",
+          "created": "2025-05-27T01:28:18.467509",
+          "message_count": 1
+        },
+        {
+          "session_id": "765dad90-8051-45e8-9a43-68cf97f92fab",
+          "created": "2025-05-27T01:29:32.272467",
+          "message_count": 1
+        }
+      ],
+      "total": 13
     },
-    "timestamp": "2025-05-27T00:47:53.839208"
+    "timestamp": "2025-05-27T01:29:32.869468"
   },
   "session_deletion": {
     "success": true,
-    "details": "Session deletion endpoint working (404 for non-existent session is expected)",
+    "details": "Session deletion successful: Session test_delete_398e0d8e-ec5c-4b73-b4e2-2c448389f523 deleted",
     "response_data": {
-      "detail": "Session not found"
+      "message": "Session test_delete_398e0d8e-ec5c-4b73-b4e2-2c448389f523 deleted"
     },
-    "timestamp": "2025-05-27T00:47:53.846237"
+    "timestamp": "2025-05-27T01:29:33.380123"
   },
   "websocket_streaming": {
     "success": true,
-    "details": "WebSocket connection successful, received 1 messages",
+    "details": "WebSocket connection successful, received 4 messages",
     "response_data": [
       {
-        "type": "error",
-        "message": "ATLAS system not ready"
+        "type": "stream_started",
+        "duration": 5,
+        "session_id": "765dad90-8051-45e8-9a43-68cf97f92fab"
+      },
+      {
+        "type": "stream_update",
+        "consciousness": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "system_metrics": {
+          "cpu_usage": 65.2,
+          "memory_usage": 32.3,
+          "timestamp": "2025-05-27T01:29:33.384578"
+        },
+        "remaining_time": 4.999537
+      },
+      {
+        "type": "stream_update",
+        "consciousness": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "system_metrics": {
+          "cpu_usage": 65.3,
+          "memory_usage": 32.3,
+          "timestamp": "2025-05-27T01:29:34.385866"
+        },
+        "remaining_time": 3.998249
       }
     ],
-    "timestamp": "2025-05-27T00:47:56.848647"
+    "timestamp": "2025-05-27T01:29:36.381481"
   }
 }
