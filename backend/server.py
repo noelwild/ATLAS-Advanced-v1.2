@@ -149,7 +149,7 @@ async def initialize_atlas():
         print("🚀 Initializing Enhanced ATLAS system...")
         
         # Check if enhanced system is available
-        if 'EnhancedAtlasSystem' in globals() and EnhancedAtlasSystem is not None:
+        if ENHANCED_ATLAS_AVAILABLE and 'EnhancedAtlasSystem' in globals() and EnhancedAtlasSystem is not None:
             print("📡 Loading Enhanced ATLAS with model switching capabilities...")
             
             # Enhanced system configuration
