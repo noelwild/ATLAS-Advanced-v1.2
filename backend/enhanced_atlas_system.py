@@ -22,9 +22,20 @@ import numpy as np
 from contextlib import asynccontextmanager
 
 # Import enhanced modules
-from enhanced_consciousness_monitor import EnhancedConsciousnessMonitor
-from enhanced_human_features import EnhancedHumanFeaturesSystem
-from secure_code_executor import SecureCodeExecutor
+try:
+    from enhanced_consciousness_monitor import EnhancedConsciousnessMonitor
+except ImportError:
+    from backend.enhanced_consciousness_monitor import EnhancedConsciousnessMonitor
+
+try:
+    from enhanced_human_features import EnhancedHumanFeaturesSystem
+except ImportError:
+    from backend.enhanced_human_features import EnhancedHumanFeaturesSystem
+
+try:
+    from secure_code_executor import SecureCodeExecutor
+except ImportError:
+    from backend.secure_code_executor import SecureCodeExecutor
 
 logger = logging.getLogger(__name__)
 
