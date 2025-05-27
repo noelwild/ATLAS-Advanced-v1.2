@@ -364,7 +364,7 @@
 
 .timeline-entry {
   display: flex;
-  justify-between;
+  justify-content: space-between;
   align-items: center;
   padding: 6px 12px;
   margin-bottom: 4px;
