@@ -245,9 +245,9 @@ async def lifespan(app: FastAPI):
 
 # Create FastAPI app
 app = FastAPI(
-    title="ATLAS System API",
-    description="Advanced Thinking and Learning AI System with Consciousness Monitoring",
-    version="1.0.0",
+    title="Enhanced ATLAS System API",
+    description="Advanced Thinking and Learning AI System with Enhanced Consciousness Monitoring, Model Switching, and Complete Human-like Features",
+    version="2.0.0",
     lifespan=lifespan
 )
 
