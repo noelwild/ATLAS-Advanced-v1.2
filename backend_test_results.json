@@ -1,87 +1,56 @@
 {
   "health_check": {
-    "success": true,
-    "details": "Health check passed - Status: healthy",
-    "response_data": {
-      "status": "healthy",
-      "timestamp": "2025-05-25T10:57:44.420386"
-    },
-    "timestamp": "2025-05-25T10:57:44.422822"
+    "success": false,
+    "details": "Health check failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.243884"
   },
   "system_status": {
-    "success": true,
-    "details": "System status retrieved - Status: initializing, Model loaded: False",
-    "response_data": {
-      "status": "initializing",
-      "model_loaded": false,
-      "consciousness_active": false,
-      "memory_count": 0,
-      "uptime": "0:00:08.149684",
-      "cpu_usage": 72.9,
-      "memory_usage": 35.1,
-      "gpu_usage": null
-    },
-    "timestamp": "2025-05-25T10:57:44.735636"
+    "success": false,
+    "details": "Status check failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.266673"
   },
   "chat_functionality": {
-    "success": true,
-    "details": "Chat endpoint accessible but ATLAS system not ready (expected in mock mode)",
-    "response_data": {
-      "detail": "ATLAS system not ready"
-    },
-    "timestamp": "2025-05-25T10:57:44.755722"
+    "success": false,
+    "details": "Chat failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.288604"
   },
   "consciousness_state": {
-    "success": true,
-    "details": "Consciousness endpoint accessible but monitor not ready (expected in mock mode)",
-    "response_data": {
-      "detail": "Consciousness monitor not ready"
-    },
-    "timestamp": "2025-05-25T10:57:44.782225"
+    "success": false,
+    "details": "Consciousness check failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.315258"
   },
   "code_execution": {
-    "success": true,
-    "details": "Code execution endpoint accessible but executor not ready (expected in mock mode)",
-    "response_data": {
-      "detail": "Code executor not ready"
-    },
-    "timestamp": "2025-05-25T10:57:44.801293"
+    "success": false,
+    "details": "Code execution failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.336685"
   },
   "memory_search": {
-    "success": true,
-    "details": "Memory search successful - Found 0 memories",
-    "response_data": {
-      "memories": [],
-      "count": 0
-    },
-    "timestamp": "2025-05-25T10:57:44.827597"
+    "success": false,
+    "details": "Memory search failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.362029"
   },
   "sessions_list": {
-    "success": true,
-    "details": "Sessions list retrieved - Total: 0",
-    "response_data": {
-      "active_sessions": [],
-      "total": 0
-    },
-    "timestamp": "2025-05-25T10:57:44.845364"
+    "success": false,
+    "details": "Sessions list failed with status 404",
+    "response_data": "404 page not found\n",
+    "timestamp": "2025-05-27T00:47:01.383395"
   },
   "session_deletion": {
-    "success": true,
-    "details": "Session deletion endpoint working (404 for non-existent session is expected)",
-    "response_data": {
-      "detail": "Session not found"
-    },
-    "timestamp": "2025-05-25T10:57:44.921652"
+    "success": false,
+    "details": "Session deletion error: Extra data: line 1 column 5 (char 4)",
+    "response_data": null,
+    "timestamp": "2025-05-27T00:47:01.446612"
   },
   "websocket_streaming": {
-    "success": true,
-    "details": "WebSocket connection successful, received 1 messages",
-    "response_data": [
-      {
-        "type": "error",
-        "message": "ATLAS system not ready"
-      }
-    ],
-    "timestamp": "2025-05-25T10:57:47.926266"
+    "success": false,
+    "details": "WebSocket connection failed",
+    "response_data": null,
+    "timestamp": "2025-05-27T00:47:04.449846"
   }
 }
