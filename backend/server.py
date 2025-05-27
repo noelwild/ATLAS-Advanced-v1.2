@@ -263,8 +263,23 @@ app.add_middleware(
 
 @app.get("/api/health")
 async def health_check():
-    """Health check endpoint"""
-    return {"status": "healthy", "timestamp": datetime.now().isoformat()}
+    """Enhanced health check endpoint"""
+    enhanced_features = {
+        "consciousness_monitoring": system_status.get("consciousness_active", False),
+        "human_features": system_status.get("initialization_complete", False),
+        "secure_execution": system_status.get("initialization_complete", False),
+        "model_switching": False
+    }
+    
+    # Check if enhanced system is available
+    if hasattr(atlas_system, 'initialized_models'):
+        enhanced_features["model_switching"] = len(atlas_system.initialized_models) > 1
+    
+    return {
+        "status": "healthy", 
+        "timestamp": datetime.now().isoformat(),
+        "enhanced_features": enhanced_features
+    }
 
 
 @app.get("/api/status", response_model=SystemStatus)
