@@ -1,0 +1,1395 @@
+{
+  "test_summary": {
+    "total_cycles": 12,
+    "duration": 29.545149087905884,
+    "start_time": "2025-05-27T01:27:49.618679",
+    "end_time": "2025-05-27T01:28:19.172791"
+  },
+  "system_performance": {
+    "cpu_usage": {
+      "min": 64.5,
+      "max": 67.6,
+      "avg": 65.85833333333333
+    },
+    "memory_usage": {
+      "min": 32.2,
+      "max": 32.2,
+      "avg": 32.199999999999996
+    }
+  },
+  "consciousness_analysis": {
+    "total_measurements": 12,
+    "active_sessions": 0,
+    "latest_metrics": {
+      "timestamp": "2025-05-27T01:28:18.424647",
+      "metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      }
+    }
+  },
+  "chat_performance": {
+    "total_interactions": 12,
+    "successful_interactions": 12,
+    "success_rate": 1.0,
+    "response_time_stats": {
+      "min": 0.5448708534240723,
+      "max": 0.6409430503845215,
+      "avg": 0.5533696810404459
+    }
+  },
+  "code_execution_analysis": {
+    "total_executions": 4,
+    "successful_executions": 0,
+    "success_rate": 0.0
+  },
+  "human_features_status": {
+    "available_features": {
+      "episodic_memory": {
+        "total_memories": 0,
+        "memory_network_size": 0,
+        "recent_memories": 0
+      },
+      "metacognition": {
+        "current_plan": null,
+        "available_strategies": [
+          "analytical_breakdown",
+          "creative_synthesis",
+          "systematic_search",
+          "intuitive_leap",
+          "collaborative_reasoning"
+        ],
+        "strategy_performance": {},
+        "metacognitive_depth": 0.0,
+        "adaptive_learning": true
+      },
+      "social_cognition": {
+        "tracked_users": 0,
+        "active_users": 0,
+        "empathy_level": 0.7,
+        "social_adaptation_active": true,
+        "user_modeling_depth": "advanced",
+        "theory_of_mind_active": true
+      },
+      "creativity": {
+        "creative_techniques_available": 5,
+        "innovation_history_depth": 0,
+        "recent_innovations": 0,
+        "originality_threshold": 0.6,
+        "creativity_mode": "active"
+      },
+      "emotional_state": {
+        "curiosity": 0.7,
+        "empathy": 0.6,
+        "confidence": 0.5,
+        "creativity": 0.8,
+        "analytical": 0.9,
+        "playfulness": 0.4,
+        "caution": 0.3,
+        "enthusiasm": 0.6
+      },
+      "system_integration": {
+        "coherence_level": 0.0,
+        "last_integration": "2025-05-27T01:25:52.553942",
+        "adaptation_history_depth": 0,
+        "learning_rate": 0.01
+      },
+      "cognitive_load": 0.06236095644623236,
+      "enhancement_level": 0.15
+    },
+    "feature_count": 8
+  },
+  "detailed_results": [
+    {
+      "cycle": 1,
+      "timestamp": "2025-05-27T01:27:49.618679",
+      "elapsed_time": 0.013474464416503906,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:01:57.402280",
+        "cpu_usage": 66.7,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_1",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:27:49.577208",
+        "response_time": 0.6409430503845215
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 2,
+      "timestamp": "2025-05-27T01:27:52.256667",
+      "elapsed_time": 2.7861993312835693,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:00.175244",
+        "cpu_usage": 66.7,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_2",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:27:52.215469",
+        "response_time": 0.54595947265625
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 3,
+      "timestamp": "2025-05-27T01:27:55.040620",
+      "elapsed_time": 5.42458963394165,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:02.813676",
+        "cpu_usage": 66.9,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_3",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:27:54.851460",
+        "response_time": 0.5448708534240723
+      },
+      "code_execution": {
+        "output": "Computation result: 4950\nCurrent timestamp: 1748309274.9794562\nRandom value: 22\nATLAS code execution test successful!\n",
+        "error": null,
+        "execution_time": 0.14797163009643555,
+        "session_id": "test_session"
+      }
+    },
+    {
+      "cycle": 4,
+      "timestamp": "2025-05-27T01:27:57.677630",
+      "elapsed_time": 8.208143472671509,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:05.597389",
+        "cpu_usage": 65.9,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_4",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:27:57.636723",
+        "response_time": 0.5459227561950684
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 5,
+      "timestamp": "2025-05-27T01:28:00.314622",
+      "elapsed_time": 10.845558881759644,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:08.234699",
+        "cpu_usage": 64.5,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_5",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:00.272494",
+        "response_time": 0.5459566116333008
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 6,
+      "timestamp": "2025-05-27T01:28:03.064605",
+      "elapsed_time": 13.482491970062256,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:10.871477",
+        "cpu_usage": 67.6,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_6",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:02.909023",
+        "response_time": 0.5449035167694092
+      },
+      "code_execution": {
+        "output": "Computation result: 4950\nCurrent timestamp: 1748309283.015122\nRandom value: 32\nATLAS code execution test successful!\n",
+        "error": null,
+        "execution_time": 0.11393070220947266,
+        "session_id": "test_session"
+      }
+    },
+    {
+      "cycle": 7,
+      "timestamp": "2025-05-27T01:28:05.702612",
+      "elapsed_time": 16.23247194290161,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:13.621880",
+        "cpu_usage": 64.8,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_7",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:05.661890",
+        "response_time": 0.5449557304382324
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 8,
+      "timestamp": "2025-05-27T01:28:08.338654",
+      "elapsed_time": 18.869199514389038,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:16.258361",
+        "cpu_usage": 65.3,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_8",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:08.296977",
+        "response_time": 0.5449771881103516
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 9,
+      "timestamp": "2025-05-27T01:28:11.104621",
+      "elapsed_time": 21.506139993667603,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:18.895105",
+        "cpu_usage": 66.3,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_9",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:10.931891",
+        "response_time": 0.5450084209442139
+      },
+      "code_execution": {
+        "output": "Computation result: 4950\nCurrent timestamp: 1748309291.0535095\nRandom value: 23\nATLAS code execution test successful!\n",
+        "error": null,
+        "execution_time": 0.13194632530212402,
+        "session_id": "test_session"
+      }
+    },
+    {
+      "cycle": 10,
+      "timestamp": "2025-05-27T01:28:13.742639",
+      "elapsed_time": 24.272482872009277,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:21.661775",
+        "cpu_usage": 65.8,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_10",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:13.701529",
+        "response_time": 0.5450060367584229
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 11,
+      "timestamp": "2025-05-27T01:28:16.377633",
+      "elapsed_time": 26.91031527519226,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:24.299349",
+        "cpu_usage": 65.0,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_11",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:16.335046",
+        "response_time": 0.5459375381469727
+      },
+      "code_execution": null
+    },
+    {
+      "cycle": 12,
+      "timestamp": "2025-05-27T01:28:19.172791",
+      "elapsed_time": 29.545149087905884,
+      "system_status": {
+        "status": "running",
+        "model_loaded": true,
+        "consciousness_active": true,
+        "memory_count": 0,
+        "uptime": "0:02:26.934129",
+        "cpu_usage": 64.8,
+        "memory_usage": 32.2,
+        "gpu_usage": null
+      },
+      "consciousness_metrics": {
+        "current_state": {
+          "consciousness_level": 0.0,
+          "i2c_activations": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "attention_patterns": {
+            "self_attention": 0.0,
+            "environmental_attention": 0.0,
+            "memory_attention": 0.0
+          },
+          "temporal_continuity": 0.0,
+          "self_awareness": 0.0,
+          "dream_active": false,
+          "consciousness_patterns": {}
+        },
+        "consciousness_history": [],
+        "dream_states": [],
+        "system_coherence": 0.0
+      },
+      "human_features": {
+        "episodic_memory": {
+          "total_memories": 0,
+          "memory_network_size": 0,
+          "recent_memories": 0
+        },
+        "metacognition": {
+          "current_plan": null,
+          "available_strategies": [
+            "analytical_breakdown",
+            "creative_synthesis",
+            "systematic_search",
+            "intuitive_leap",
+            "collaborative_reasoning"
+          ],
+          "strategy_performance": {},
+          "metacognitive_depth": 0.0,
+          "adaptive_learning": true
+        },
+        "social_cognition": {
+          "tracked_users": 0,
+          "active_users": 0,
+          "empathy_level": 0.7,
+          "social_adaptation_active": true,
+          "user_modeling_depth": "advanced",
+          "theory_of_mind_active": true
+        },
+        "creativity": {
+          "creative_techniques_available": 5,
+          "innovation_history_depth": 0,
+          "recent_innovations": 0,
+          "originality_threshold": 0.6,
+          "creativity_mode": "active"
+        },
+        "emotional_state": {
+          "curiosity": 0.7,
+          "empathy": 0.6,
+          "confidence": 0.5,
+          "creativity": 0.8,
+          "analytical": 0.9,
+          "playfulness": 0.4,
+          "caution": 0.3,
+          "enthusiasm": 0.6
+        },
+        "system_integration": {
+          "coherence_level": 0.0,
+          "last_integration": "2025-05-27T01:25:52.553942",
+          "adaptation_history_depth": 0,
+          "learning_rate": 0.01
+        },
+        "cognitive_load": 0.06236095644623236,
+        "enhancement_level": 0.15
+      },
+      "chat_response": {
+        "response": "I apologize, but I encountered an error while processing your request: mat1 and mat2 shapes cannot be multiplied (1x256 and 512x512)",
+        "session_id": "session_12",
+        "consciousness_level": 0.0,
+        "memory_stored": null,
+        "timestamp": "2025-05-27T01:28:18.969921",
+        "response_time": 0.5459949970245361
+      },
+      "code_execution": {
+        "output": "Computation result: 4950\nCurrent timestamp: 1748309299.1111803\nRandom value: 55\nATLAS code execution test successful!\n",
+        "error": null,
+        "execution_time": 0.16010046005249023,
+        "session_id": "test_session"
+      }
+    }
+  ]
+}
