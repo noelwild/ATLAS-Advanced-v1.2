@@ -1,6 +1,7 @@
 """
-ATLAS Backend Server
-Integrates ATLAS consciousness monitoring system with FastAPI backend
+Enhanced ATLAS Backend Server
+Integrates Enhanced ATLAS consciousness monitoring system with FastAPI backend
+Uses the enhanced system with model switching, advanced learning, and complete human features
 """
 
 import os
@@ -16,20 +17,35 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
 
-# ATLAS imports - use the simplified backend versions
+# Enhanced ATLAS imports
 try:
-    from atlas_qwen_system import AtlasQwenSystem
-    from consciousness_monitor import ConsciousnessMonitor  
-    from config import get_default_config
-    from human_enhancements import HumanEnhancementModule
-    from code_executor import CodeExecutor
+    from enhanced_atlas_system import EnhancedAtlasSystem, ModelType
+    from enhanced_consciousness_monitor import EnhancedConsciousnessMonitor
+    from enhanced_human_features import EnhancedHumanFeaturesSystem
+    from secure_code_executor import SecureCodeExecutor
+    # Fallback to original for compatibility
+    AtlasQwenSystem = EnhancedAtlasSystem
+    ConsciousnessMonitor = EnhancedConsciousnessMonitor
+    HumanEnhancementModule = EnhancedHumanFeaturesSystem
+    CodeExecutor = SecureCodeExecutor
 except ImportError as e:
-    print(f"ATLAS import error: {e}")
-    print("Some ATLAS features may not be available")
-    AtlasQwenSystem = None
-    ConsciousnessMonitor = None
-    HumanEnhancementModule = None
-    CodeExecutor = None
+    print(f"Enhanced ATLAS import error: {e}")
+    print("Falling back to original ATLAS features")
+    try:
+        from atlas_qwen_system import AtlasQwenSystem
+        from consciousness_monitor import ConsciousnessMonitor  
+        from config import get_default_config
+        from human_enhancements import HumanEnhancementModule
+        from code_executor import CodeExecutor
+        ModelType = None
+    except ImportError as e2:
+        print(f"Original ATLAS import error: {e2}")
+        print("Some ATLAS features may not be available")
+        AtlasQwenSystem = None
+        ConsciousnessMonitor = None
+        HumanEnhancementModule = None
+        CodeExecutor = None
+        ModelType = None
 
 # Database
 from motor.motor_asyncio import AsyncIOMotorClient
