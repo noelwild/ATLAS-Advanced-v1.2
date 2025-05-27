@@ -415,6 +415,84 @@ async def execute_code(request: CodeExecutionRequest):
         raise HTTPException(status_code=500, detail=f"Code execution error: {str(e)}")
 
 
+@app.post("/api/model/switch")
+async def switch_model(model_type: str, force_load: bool = False):
+    """Switch between available models (Enhanced ATLAS only)"""
+    
+    if not atlas_system:
+        raise HTTPException(status_code=503, detail="ATLAS system not ready")
+    
+    # Check if enhanced system with model switching is available
+    if not hasattr(atlas_system, 'switch_model') or ModelType is None:
+        raise HTTPException(status_code=501, detail="Model switching not available in current ATLAS configuration")
+    
+    try:
+        model_enum = ModelType(model_type)
+        success = await atlas_system.switch_model(model_enum, force_load)
+        
+        if success:
+            return {
+                "message": f"Successfully switched to {model_type}",
+                "current_model": model_type,
+                "available_models": [m.value for m in atlas_system.initialized_models]
+            }
+        else:
+            raise HTTPException(status_code=400, detail=f"Failed to switch to {model_type}")
+            
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid model type: {model_type}. Available: {[m.value for m in ModelType] if ModelType else []}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Model switch error: {str(e)}")
+
+
+@app.get("/api/consciousness/detailed")
+async def get_detailed_consciousness():
+    """Get detailed consciousness analytics (Enhanced ATLAS only)"""
+    
+    if not atlas_system:
+        raise HTTPException(status_code=503, detail="ATLAS system not ready")
+    
+    if not hasattr(atlas_system, 'get_consciousness_analytics'):
+        raise HTTPException(status_code=501, detail="Detailed consciousness analytics not available")
+    
+    try:
+        return atlas_system.get_consciousness_analytics()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Consciousness analytics error: {str(e)}")
+
+
+@app.get("/api/human-features")
+async def get_human_features():
+    """Get human features analytics (Enhanced ATLAS only)"""
+    
+    if not atlas_system:
+        raise HTTPException(status_code=503, detail="ATLAS system not ready")
+    
+    if not hasattr(atlas_system, 'get_human_features_analytics'):
+        raise HTTPException(status_code=501, detail="Human features analytics not available")
+    
+    try:
+        return atlas_system.get_human_features_analytics()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Human features analytics error: {str(e)}")
+
+
+@app.get("/api/learning/analytics")
+async def get_learning_analytics():
+    """Get learning system analytics (Enhanced ATLAS only)"""
+    
+    if not atlas_system:
+        raise HTTPException(status_code=503, detail="ATLAS system not ready")
+    
+    if not hasattr(atlas_system, 'learning_system'):
+        raise HTTPException(status_code=501, detail="Learning analytics not available")
+    
+    try:
+        return atlas_system.learning_system.get_learning_analytics()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Learning analytics error: {str(e)}")
+
+
 @app.get("/api/memory/search")
 async def search_memories(query: str, limit: int = 10):
     """Search stored memories"""
